@@ -1,0 +1,60 @@
+/*
+    Typical device breakpoint
+    ---------------------------------
+    Telas pequenas: até 600px
+    Celular: 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Telas grandes: acima de 1200px
+    ---------------------------------
+*/
+
+:root {
+    --cinza: #2C3740;
+    --azul: #234966;
+    --laranja: #f57f18;
+    --amarelo: #f2c941;
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cinza), var(--azul));
+    }
+    
+    #login {
+        width: 80vw;
+
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cinza), var(--azul));
+    }
+
+    #login {
+        width: 950px;
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+}
