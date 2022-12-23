@@ -12,8 +12,8 @@
 :root {
     --cinza: #2C3740;
     --azul: #234966;
-    --laranja: #f57f18;
-    --amarelo: #f2c941;
+    --laranja: #F2913D;
+    --amarelo: #F2B441;
 }
 
 @media screen and (min-width:768px) and (max-width: 992px) {
